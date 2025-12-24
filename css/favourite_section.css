@@ -1,0 +1,84 @@
+/* ===== Favourite Recipes Section ===== */
+#favourite-recipes-section {
+    padding: 30px;
+    background: linear-gradient(135deg, #f9f5ff, #fef8f8); /* softer lilac-pink gradient to differ slightly */
+    border-radius: 16px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* subtitle text */
+  #favourite-recipes-section .recipes-subtitle {
+    color: #272727;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  /* Controls row */
+  #favourite-recipes-section .recipes-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+  
+  #favourite-recipes-section .search-bar,
+  #favourite-recipes-section .filter-category,
+  #favourite-recipes-section .sort-order {
+    flex: 1;
+    min-width: 180px;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #fff;
+  }
+  
+  /* No "new recipe" button here, so skip */
+  
+  /* ===== Stats cards ===== */
+  #favourite-recipes-section .recipe-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+  
+  #favourite-recipes-section .stat-card {
+    flex: 1 1 120px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: default;
+  }
+  
+  #favourite-recipes-section .stat-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(7, 7, 7, 0.12);
+  }
+  
+  #favourite-recipes-section .stat-card p {
+    font-size: 14px;
+    color: #474747;
+    margin-bottom: 6px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  
+  #favourite-recipes-section .stat-card span {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #131212;
+  }
+  
+  /* ===== Favourite recipe grid (for later use) ===== */
+  #favourite-recipes-section .recipe-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 10px 0;
+  }
+  

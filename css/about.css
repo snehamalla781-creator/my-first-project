@@ -1,0 +1,101 @@
+.about-section {
+    background-color: #fffaf5;
+    padding: 80px 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #444;
+  }
+  
+  .about-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .about-section h2 {
+    font-size: 2.8rem;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #e76f51;
+  }
+  
+  .about-section h3 {
+    font-size: 1.8rem;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: #FF6B6B;
+  }
+  
+  .about-section p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+  .team-cards {
+    display: flex;
+    justify-content: space-between; /* Spread cards evenly */
+    gap: 20px;                      /* Space between cards */
+    margin-bottom: 30px;
+  }
+  
+  .team-card {
+    flex: 1;                         /* All cards take equal width */
+    max-width: 300px;                /* Optional: limit max width */
+    background-color: #fef6e4;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .team-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .team-card img.team-photo {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #e76f51;
+  }
+  
+  .team-card h4 {
+    margin-bottom: 10px;
+    color: #e76f51;
+  }
+  
+  .team-card p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  /* Responsive: stack cards on small screens */
+  @media screen and (max-width: 768px) {
+    .team-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .team-card {
+      max-width: 90%;  /* Cards take almost full width on mobile */
+      margin-bottom: 20px;
+    }
+  }
+  
+  
+  .features-list {
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .features-list li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  

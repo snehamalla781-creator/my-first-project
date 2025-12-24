@@ -1,0 +1,33 @@
+/* Compact Footer */
+.site-footer {
+  font-family: Arial, sans-serif;
+  color: #4a4a4a; /* soft gray text */
+  background-color: #fdf5f2; /* light pastel background */
+  padding: 15px 10px; /* smaller padding */
+  text-align: center;
+  border-top: 1px solid #ddd;
+  font-size: 0.85em; /* smaller text */
+  line-height: 1.4;
+}
+
+/* Footer Text */
+.site-footer p {
+  margin: 4px 0; /* smaller spacing between lines */
+}
+
+/* Optional: emphasize project authors */
+.site-footer p strong {
+  color: #ff6b6b; /* highlight author names */
+}
+
+/* Responsive for very small screens */
+@media (max-width: 480px) {
+  .site-footer {
+    padding: 10px 5px;
+    font-size: 0.8em;
+  }
+
+  .site-footer p {
+    margin: 3px 0;
+  }
+}
